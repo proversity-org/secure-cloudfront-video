@@ -17,13 +17,13 @@ class SecureCloudfrontVideoConfig(AppConfig):
     plugin_app = {
         'url_config': {
             'lms.djangoapp': {
-                'namespace': 'secure_cloudfront_video',
-                'regex': r'^secure_cloudfront_video/',
+                'namespace': 'secure-cloudfront-video',
+                'regex': r'^secure-cloudfront-video/',
                 'relative_path': 'urls',
             },
             'cms.djangoapp': {
-                'namespace': 'secure_cloudfront_video',
-                'regex': r'^secure_cloudfront_video/',
+                'namespace': 'secure-cloudfront-video',
+                'regex': r'^secure-cloudfront-video/',
                 'relative_path': 'urls',
             }
         },

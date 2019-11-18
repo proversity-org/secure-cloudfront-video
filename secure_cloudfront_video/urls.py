@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 
+from secure_cloudfront_video.views import secure_cloudfront_video
 
 urlpatterns = [
     url(
-        r'^secure-cloudfront-video/$',
+        r'',
         secure_cloudfront_video,
         name='secure_cloudfront_video',
     ),
