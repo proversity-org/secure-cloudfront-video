@@ -9,7 +9,7 @@ astroid==1.6.6            # via pylint
 botocore==1.8.17
 cffi==1.13.2              # via cryptography
 cryptography==2.4.2
-django==1.11.26
+django==2.2.7
 docutils==0.15.2          # via botocore
 idna==2.8                 # via cryptography
 isort==4.3.21             # via pylint
@@ -22,4 +22,5 @@ pylint==1.9.3
 python-dateutil==2.8.1    # via botocore
 pytz==2019.3              # via django
 six==1.13.0               # via astroid, cryptography, pylint, python-dateutil
+sqlparse==0.3.0           # via django
 wrapt==1.11.2             # via astroid
