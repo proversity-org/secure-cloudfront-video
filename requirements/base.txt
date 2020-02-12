@@ -9,7 +9,7 @@ astroid==1.6.6            # via pylint
 botocore==1.8.17
 cffi==1.13.2              # via cryptography
 cryptography==2.4.2
-django==1.11.26
+django==1.11.28
 docutils==0.15.2          # via botocore
 idna==2.8                 # via cryptography
 isort==4.3.21             # via pylint
