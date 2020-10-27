@@ -4,21 +4,19 @@
 #
 #    pip-compile --output-file=requirements/base.txt requirements/base.in
 #
-asn1crypto==1.2.0         # via cryptography
 astroid==1.6.6            # via pylint
-botocore==1.8.17
+botocore==1.8.17          # via -r base.in
 cffi==1.13.2              # via cryptography
-cryptography==2.4.2
-django==1.11.26
+cryptography==3.2         # via -r base.in
+django==1.11.26           # via -r base.in
 docutils==0.15.2          # via botocore
-idna==2.8                 # via cryptography
 isort==4.3.21             # via pylint
 jmespath==0.9.4           # via botocore
 lazy-object-proxy==1.4.3  # via astroid
 mccabe==0.6.1             # via pylint
-pycodestyle==2.5.0
+pycodestyle==2.5.0        # via -r base.in
 pycparser==2.19           # via cffi
-pylint==1.9.3
+pylint==1.9.3             # via -r base.in
 python-dateutil==2.8.1    # via botocore
 pytz==2019.3              # via django
 six==1.13.0               # via astroid, cryptography, pylint, python-dateutil
