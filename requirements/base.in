@@ -1,6 +1,6 @@
 # Main requirements of your plugin application.
 
-Django<2.0
+Django<3.0
 pylint==1.9.3
 pycodestyle==2.5.0
 cryptography==2.4.2
